@@ -1,0 +1,104 @@
+@main-primary: #792626;
+
+@import "../bower_components/bootstrap/less/bootstrap";
+
+body {
+  background: url("./ballad-forest.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-title {
+  padding-top: 150px;
+  font-family: 'Fondamento', cursive;
+  font-size: 200pt;
+  color: #fff;
+  text-align:center
+}
+
+.main-subtext {
+  padding: 0px 400px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  color: #fff;
+  text-align:center
+}
+
+.content-box {
+  background-color: rgba(5,4,2,0.8);
+  margin-top: 25%;
+  width: 75%;
+  height: 50%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 15px;
+}
+
+
+.header {
+  background-color: @main-primary;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100px;
+}
+
+.footer {
+  background-color: @main-primary;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:100px;
+  width:100%;
+  text-align: center;
+}
+
+.menu {
+  font-family: 'Fondamento', cursive;
+  //font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  //font-size: 10pt;
+  color: #fff;
+  top: 50px;
+  text-align:center
+}
+
+ul {
+  margin-top: 40px;
+}
+
+ul li {
+  list-style:none;
+  display:inline-block;
+}
+
+ul li:after {
+  content:"✦";
+  font-size:6pt;
+  margin-left: 5px;
+  color:#fff;
+}
+ul li:last-child:after {
+  content:"";
+}
+ul li a {
+  margin:0 8px; /* Set margins around the links */
+  color:#fff; /* Text colors for the links */
+}
+
+.side-text {
+  position: absolute;
+  top: 45%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+  color: #000;
+}
+
+
