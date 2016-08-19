@@ -3,5 +3,6 @@ bower_components
 coverage
 config.js
 main.css
+.idea
 
 .sass-cache
